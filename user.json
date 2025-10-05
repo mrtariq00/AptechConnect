@@ -1,0 +1,154 @@
+{
+  "students": [
+    {
+      "token": 1001,
+      "user": {
+        "name": "Tariq Elahi",
+        "id": 1647397,
+        "fatherName": "Elahi Bux",
+        "phoneNo": "03101234567",
+        "campus": 1,
+        "currentSem": 2,
+        "completedSem": 1,
+        "course": "Computer Science",
+        "courseDuration": "1 Years"
+      },
+      "password": "Ne6KFHtx"
+    },
+    {
+      "token": 1002,
+      "user": {
+        "name": "Salman Rashid",
+        "id": 1647398,
+        "fatherName": "Rashid Ali",
+        "phoneNo": "3091184989",
+        "campus": 1,
+        "currentSem": 2,
+        "completedSem": 1,
+        "course": "Mathematics",
+        "courseDuration": "1 Years"
+      },
+      "password": "rPbebLCr"
+    },
+    {
+      "token": 1003,
+      "user": {
+        "name": "Aimam Tariq",
+        "id": 1647399,
+        "fatherName": "James Brown",
+        "phoneNo": "03103456789",
+        "campus": 2,
+        "currentSem": 3,
+        "completedSem": 2,
+        "course": "Physics",
+        "courseDuration": "4 Years"
+      },
+      "password": "l2LBtP8W"
+    },
+    {
+      "token": 1004,
+      "user": {
+        "name": "Sarah Davis",
+        "id": 1647400,
+        "fatherName": "Thomas Davis",
+        "phoneNo": "03104567890",
+        "campus": 1,
+        "currentSem": 2,
+        "completedSem": 1,
+        "course": "Chemistry",
+        "courseDuration": "4 Years"
+      },
+      "password": "sd123456"
+    },
+    {
+      "token": 1005,
+      "user": {
+        "name": "James Wilson",
+        "id": 1647401,
+        "fatherName": "David Wilson",
+        "phoneNo": "03105678901",
+        "campus": 2,
+        "currentSem": 1,
+        "completedSem": 0,
+        "course": "Engineering",
+        "courseDuration": "4 Years"
+      },
+      "password": "jw123456"
+    },
+    {
+      "token": 1006,
+      "user": {
+        "name": "Emily Taylor",
+        "id": 1647402,
+        "fatherName": "Michael Taylor",
+        "phoneNo": "03106789012",
+        "campus": 1,
+        "currentSem": 4,
+        "completedSem": 3,
+        "course": "Biology",
+        "courseDuration": "4 Years"
+      },
+      "password": "et123456"
+    },
+    {
+      "token": 1007,
+      "user": {
+        "name": "Daniel Martinez",
+        "id": 1647403,
+        "fatherName": "Carlos Martinez",
+        "phoneNo": "03107890123",
+        "campus": 2,
+        "currentSem": 2,
+        "completedSem": 1,
+        "course": "Economics",
+        "courseDuration": "4 Years"
+      },
+      "password": "dm123456"
+    },
+    {
+      "token": 1008,
+      "user": {
+        "name": "Sophia Anderson",
+        "id": 1647404,
+        "fatherName": "Eric Anderson",
+        "phoneNo": "03108901234",
+        "campus": 1,
+        "currentSem": 3,
+        "completedSem": 2,
+        "course": "Psychology",
+        "courseDuration": "4 Years"
+      },
+      "password": "sa123456"
+    },
+    {
+      "token": 1009,
+      "user": {
+        "name": "David Thompson",
+        "id": 1647405,
+        "fatherName": "Paul Thompson",
+        "phoneNo": "03109012345",
+        "campus": 2,
+        "currentSem": 1,
+        "completedSem": 0,
+        "course": "History",
+        "courseDuration": "4 Years"
+      },
+      "password": "dt123456"
+    },
+    {
+      "token": 1010,
+      "user": {
+        "name": "Olivia Garcia",
+        "id": 1647406,
+        "fatherName": "Luis Garcia",
+        "phoneNo": "03100123456",
+        "campus": 1,
+        "currentSem": 2,
+        "completedSem": 1,
+        "course": "English",
+        "courseDuration": "4 Years"
+      },
+      "password": "og123456"
+    }
+  ]
+}

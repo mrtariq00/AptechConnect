@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta & Title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aptech Exam Portal</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://aptechstudentconnect.com/assets/icon-aptech-B79t5SjH.png"
+    />
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Remote CSS -->
+    <link
+      rel="stylesheet"
+      href="https://aptechstudentconnect.com/assets/index-BUCVUIcM.css"
+    />
+    <style>
+      #error {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="min-h-screen relative">
+        <!-- Centered Login Box -->
+        <div class="flex flex-col gap-6 items-center justify-center h-screen">
+          <!-- Logo -->
+          <img
+            src="https://aptechstudentconnect.com/images/logo.png"
+            class="h-20"
+            alt="Aptech Logo"
+          />
+
+          <!-- Login Card -->
+          <div
+            class="rounded-xl border bg-white/20 backdrop-blur-xl shadow min-w-[25rem] text-accent border-none"
+          >
+            <!-- Header -->
+            <div class="flex flex-col space-y-1.5 p-6">
+              <div class="font-semibold tracking-tight text-2xl">Login</div>
+              <div class="text-sm text-accent">
+                Enter your student ID and password
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div class="p-6 pt-0">
+              <form>
+                <div class="flex flex-col gap-4">
+                  <!-- Student ID -->
+                  <div class="grid gap-2">
+                    <label
+                      for="studentID"
+                      class="text-sm font-medium leading-none"
+                    >
+                      Student ID
+                    </label>
+                    <input
+                      autocomplete="on"
+                      type="text"
+                      id="studentID"
+                      name="student_id"
+                      placeholder="1234567"
+                      required
+                      class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm placeholder:text-gray-300 focus:border-primary focus:outline-none md:text-sm"
+                    />
+                  </div>
+
+                  <!-- Password -->
+                  <div class="grid gap-2">
+                    <label
+                      for="password"
+                      class="text-sm font-medium leading-none"
+                    >
+                      Password
+                    </label>
+                    <div class="relative">
+                      <input
+                        autocomplete="on"
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="••••••••"
+                        required
+                        class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm placeholder:text-gray-300 focus:border-primary focus:outline-none md:text-sm"
+                      />
+
+                      <!-- Show/Hide Password Icon -->
+                      <div
+                        class="absolute right-4 top-[0.65rem] cursor-pointer"
+                      >
+                        <svg
+                          stroke="currentColor"
+                          fill="currentColor"
+                          viewBox="0 0 640 512"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="error" class="flex items-center gap-2 bg-red-400 text-white rounded-md px-2 py-2 text-sm"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path></svg><p>Invalid username or password.</p></div>
+
+                  <!-- Login Button -->
+                  <a
+                    id="loginButton"
+                    class="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium text-white bg-primary shadow h-9 px-4 py-2 w-full transition-colors focus:outline-none focus-visible:outline-none"
+                  >
+                    Login
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notifications -->
+      <div
+        role="region"
+        aria-label="Notifications (F8)"
+        tabindex="-1"
+        style="pointer-events: none"
+      >
+        <ol
+          tabindex="-1"
+          class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"
+        ></ol>
+      </div>
+    </div>
+    <script src="eye.js"></script>
+    <script src="index.mjs" type="module"></script>
+  </body>
+</html>
